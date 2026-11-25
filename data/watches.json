@@ -1,0 +1,1382 @@
+[
+ {
+  "id": "rolex-submariner-date",
+  "brand": "Rolex",
+  "model": "Submariner Date",
+  "ref": "124060",
+  "price": 17501,
+  "tier": 5,
+  "img": "/watches/rolex-submariner-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-submariner-no-date",
+  "brand": "Rolex",
+  "model": "Submariner No Date",
+  "ref": "124060",
+  "price": 13750,
+  "tier": 4,
+  "img": "/watches/rolex-submariner-no-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-gmt-master-ii",
+  "brand": "Rolex",
+  "model": "GMT-Master II",
+  "ref": "126710BLRO",
+  "price": 20765,
+  "tier": 5,
+  "img": "/watches/rolex-gmt-master-ii.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-daytona",
+  "brand": "Rolex",
+  "model": "Daytona",
+  "ref": "116500LN",
+  "price": 42886,
+  "tier": 5,
+  "img": "/watches/rolex-daytona.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-datejust-36",
+  "brand": "Rolex",
+  "model": "Datejust 36",
+  "ref": "126234",
+  "price": 12500,
+  "tier": 4,
+  "img": "/watches/rolex-datejust-36.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-oyster-perpetual-41",
+  "brand": "Rolex",
+  "model": "Oyster Perpetual 41",
+  "ref": "124300",
+  "price": 7451,
+  "tier": 4,
+  "img": "/watches/rolex-oyster-perpetual-41.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-explorer",
+  "brand": "Rolex",
+  "model": "Explorer",
+  "ref": "124270",
+  "price": 9027,
+  "tier": 4,
+  "img": "/watches/rolex-explorer.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-explorer-ii",
+  "brand": "Rolex",
+  "model": "Explorer II",
+  "ref": "226570",
+  "price": 11174,
+  "tier": 4,
+  "img": "/watches/rolex-explorer-ii.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-day-date-40",
+  "brand": "Rolex",
+  "model": "Day-Date 40",
+  "ref": "228238",
+  "price": 46000,
+  "tier": 5,
+  "img": "/watches/rolex-day-date-40.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-sea-dweller",
+  "brand": "Rolex",
+  "model": "Sea-Dweller",
+  "ref": "126600",
+  "price": 15995,
+  "tier": 5,
+  "img": "/watches/rolex-sea-dweller.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-yacht-master-40",
+  "brand": "Rolex",
+  "model": "Yacht-Master 40",
+  "ref": "126622",
+  "price": 18275,
+  "tier": 5,
+  "img": "/watches/rolex-yacht-master-40.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-air-king",
+  "brand": "Rolex",
+  "model": "Air-King",
+  "ref": "126900",
+  "price": 6450,
+  "tier": 4,
+  "img": "/watches/rolex-air-king.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-milgauss",
+  "brand": "Rolex",
+  "model": "Milgauss",
+  "ref": "116400GV",
+  "price": 12597,
+  "tier": 4,
+  "img": "/watches/rolex-milgauss.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-sky-dweller",
+  "brand": "Rolex",
+  "model": "Sky-Dweller",
+  "ref": "326934",
+  "price": 27039,
+  "tier": 5,
+  "img": "/watches/rolex-sky-dweller.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "rolex-cellini-moonphase",
+  "brand": "Rolex",
+  "model": "Cellini Moonphase",
+  "ref": "50535",
+  "price": 4745,
+  "tier": 3,
+  "img": "/watches/rolex-cellini-moonphase.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-speedmaster-moonwatch-professional",
+  "brand": "Omega",
+  "model": "Speedmaster Moonwatch Professional",
+  "ref": "310.30.42.50.01.001",
+  "price": 8494,
+  "tier": 4,
+  "img": "/watches/omega-speedmaster-moonwatch-professional.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-diver-300m",
+  "brand": "Omega",
+  "model": "Seamaster Diver 300M",
+  "ref": "210.30.42.20.03.001",
+  "price": 5499,
+  "tier": 3,
+  "img": "/watches/omega-seamaster-diver-300m.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-aqua-terra",
+  "brand": "Omega",
+  "model": "Seamaster Aqua Terra",
+  "ref": "220.10.41.21.03.004",
+  "price": 5737,
+  "tier": 3,
+  "img": "/watches/omega-seamaster-aqua-terra.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-planet-ocean",
+  "brand": "Omega",
+  "model": "Seamaster Planet Ocean",
+  "ref": "215.30.44.21.01.001",
+  "price": 6613,
+  "tier": 4,
+  "img": "/watches/omega-seamaster-planet-ocean.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-speedmaster-racing",
+  "brand": "Omega",
+  "model": "Speedmaster Racing",
+  "ref": "329.30.44.51.01.001",
+  "price": 5858,
+  "tier": 3,
+  "img": "/watches/omega-speedmaster-racing.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-de-ville-prestige",
+  "brand": "Omega",
+  "model": "De Ville Prestige",
+  "ref": "424.10.40.20.02.001",
+  "price": 4370,
+  "tier": 3,
+  "img": "/watches/omega-de-ville-prestige.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-constellation",
+  "brand": "Omega",
+  "model": "Constellation",
+  "ref": "131.10.39.20.02.001",
+  "price": 3317,
+  "tier": 3,
+  "img": "/watches/omega-constellation.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-vintage",
+  "brand": "Omega",
+  "model": "Seamaster Vintage",
+  "ref": "165.024",
+  "price": 2056,
+  "tier": 3,
+  "img": "/watches/omega-seamaster-vintage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-geneve-vintage",
+  "brand": "Omega",
+  "model": "Geneve Vintage",
+  "ref": "166.041",
+  "price": 1043,
+  "tier": 2,
+  "img": "/watches/omega-geneve-vintage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-nautilus",
+  "brand": "Patek Philippe",
+  "model": "Nautilus",
+  "ref": "5711/1A-010",
+  "price": 139702,
+  "tier": 5,
+  "img": "/watches/patek-philippe-nautilus.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-aquanaut",
+  "brand": "Patek Philippe",
+  "model": "Aquanaut",
+  "ref": "5167A-001",
+  "price": 93000,
+  "tier": 5,
+  "img": "/watches/patek-philippe-aquanaut.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-calatrava",
+  "brand": "Patek Philippe",
+  "model": "Calatrava",
+  "ref": "5196J-001",
+  "price": 23435,
+  "tier": 5,
+  "img": "/watches/patek-philippe-calatrava.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-annual-calendar",
+  "brand": "Patek Philippe",
+  "model": "Annual Calendar",
+  "ref": "5146J-001",
+  "price": 59500,
+  "tier": 5,
+  "img": "/watches/patek-philippe-annual-calendar.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-perpetual-calendar",
+  "brand": "Patek Philippe",
+  "model": "Perpetual Calendar",
+  "ref": "5320G-001",
+  "price": 101390,
+  "tier": 5,
+  "img": "/watches/patek-philippe-perpetual-calendar.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "patek-philippe-world-time",
+  "brand": "Patek Philippe",
+  "model": "World Time",
+  "ref": "5230G-001",
+  "price": 66250,
+  "tier": 5,
+  "img": "/watches/patek-philippe-world-time.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "audemars-piguet-royal-oak-selfwinding",
+  "brand": "Audemars Piguet",
+  "model": "Royal Oak Selfwinding",
+  "ref": "15510ST.OO.1320ST.01",
+  "price": 53913,
+  "tier": 5,
+  "img": "/watches/audemars-piguet-royal-oak-selfwinding.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "audemars-piguet-royal-oak-offshore-chronograph",
+  "brand": "Audemars Piguet",
+  "model": "Royal Oak Offshore Chronograph",
+  "ref": "26470ST.OO.A027CA.01",
+  "price": 43000,
+  "tier": 5,
+  "img": "/watches/audemars-piguet-royal-oak-offshore-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "audemars-piguet-code-11-59-selfwinding",
+  "brand": "Audemars Piguet",
+  "model": "Code 11.59 Selfwinding",
+  "ref": "15210CR.OO.A002CR.01",
+  "price": 39000,
+  "tier": 5,
+  "img": "/watches/audemars-piguet-code-11-59-selfwinding.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "vacheron-constantin-overseas-selfwinding",
+  "brand": "Vacheron Constantin",
+  "model": "Overseas Selfwinding",
+  "ref": "4500V/110A-B128",
+  "price": 31350,
+  "tier": 5,
+  "img": "/watches/vacheron-constantin-overseas-selfwinding.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "vacheron-constantin-patrimony",
+  "brand": "Vacheron Constantin",
+  "model": "Patrimony",
+  "ref": "81180/000G-9298",
+  "price": 17252,
+  "tier": 5,
+  "img": "/watches/vacheron-constantin-patrimony.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "vacheron-constantin-historiques-american-1921",
+  "brand": "Vacheron Constantin",
+  "model": "Historiques American 1921",
+  "ref": "82035/000G-B735",
+  "price": 19154,
+  "tier": 5,
+  "img": "/watches/vacheron-constantin-historiques-american-1921.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "a-lange-s-hne-lange-1",
+  "brand": "A. Lange & S\u00f6hne",
+  "model": "Lange 1",
+  "ref": "191.032",
+  "price": 42659,
+  "tier": 5,
+  "img": "/watches/a-lange-s-hne-lange-1.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "a-lange-s-hne-saxonia-thin",
+  "brand": "A. Lange & S\u00f6hne",
+  "model": "Saxonia Thin",
+  "ref": "201.027",
+  "price": 24000,
+  "tier": 5,
+  "img": "/watches/a-lange-s-hne-saxonia-thin.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tudor-black-bay-fifty-eight",
+  "brand": "Tudor",
+  "model": "Black Bay Fifty-Eight",
+  "ref": "M79030N-0001",
+  "price": 4140,
+  "tier": 3,
+  "img": "/watches/tudor-black-bay-fifty-eight.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tudor-pelagos",
+  "brand": "Tudor",
+  "model": "Pelagos",
+  "ref": "M25600TN-0001",
+  "price": 4850,
+  "tier": 3,
+  "img": "/watches/tudor-pelagos.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tudor-black-bay-gmt",
+  "brand": "Tudor",
+  "model": "Black Bay GMT",
+  "ref": "M79830RB-0001",
+  "price": 4400,
+  "tier": 3,
+  "img": "/watches/tudor-black-bay-gmt.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tudor-royal",
+  "brand": "Tudor",
+  "model": "Royal",
+  "ref": "M28600-0005",
+  "price": 2565,
+  "tier": 3,
+  "img": "/watches/tudor-royal.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-tank-must",
+  "brand": "Cartier",
+  "model": "Tank Must",
+  "ref": "WSTA0041",
+  "price": 4290,
+  "tier": 3,
+  "img": "/watches/cartier-tank-must.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-santos-de-cartier",
+  "brand": "Cartier",
+  "model": "Santos de Cartier",
+  "ref": "WSSA0018",
+  "price": 7844,
+  "tier": 4,
+  "img": "/watches/cartier-santos-de-cartier.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-ballon-bleu",
+  "brand": "Cartier",
+  "model": "Ballon Bleu",
+  "ref": "WSBB0025",
+  "price": 7556,
+  "tier": 4,
+  "img": "/watches/cartier-ballon-bleu.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-pasha-de-cartier",
+  "brand": "Cartier",
+  "model": "Pasha de Cartier",
+  "ref": "WSPA0009",
+  "price": 3800,
+  "tier": 3,
+  "img": "/watches/cartier-pasha-de-cartier.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "iwc-pilot-chronograph-41",
+  "brand": "IWC",
+  "model": "Pilot Chronograph 41",
+  "ref": "IW388101",
+  "price": 8000,
+  "tier": 4,
+  "img": "/watches/iwc-pilot-chronograph-41.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "iwc-big-pilot-43",
+  "brand": "IWC",
+  "model": "Big Pilot 43",
+  "ref": "IW329301",
+  "price": 11396,
+  "tier": 4,
+  "img": "/watches/iwc-big-pilot-43.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "iwc-portugieser-chronograph",
+  "brand": "IWC",
+  "model": "Portugieser Chronograph",
+  "ref": "IW3716",
+  "price": 8400,
+  "tier": 4,
+  "img": "/watches/iwc-portugieser-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "iwc-portofino-automatic",
+  "brand": "IWC",
+  "model": "Portofino Automatic",
+  "ref": "IW356501",
+  "price": 5174,
+  "tier": 3,
+  "img": "/watches/iwc-portofino-automatic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-navitimer-b01-chronograph",
+  "brand": "Breitling",
+  "model": "Navitimer B01 Chronograph",
+  "ref": "AB0138",
+  "price": 8465,
+  "tier": 4,
+  "img": "/watches/breitling-navitimer-b01-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-superocean-heritage",
+  "brand": "Breitling",
+  "model": "Superocean Heritage",
+  "ref": "AB2010",
+  "price": 5060,
+  "tier": 3,
+  "img": "/watches/breitling-superocean-heritage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-chronomat-b01",
+  "brand": "Breitling",
+  "model": "Chronomat B01",
+  "ref": "AB0134",
+  "price": 6500,
+  "tier": 4,
+  "img": "/watches/breitling-chronomat-b01.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-superocean-automatic",
+  "brand": "Breitling",
+  "model": "Superocean Automatic",
+  "ref": "A17376",
+  "price": 4446,
+  "tier": 3,
+  "img": "/watches/breitling-superocean-automatic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-avenger-automatic",
+  "brand": "Breitling",
+  "model": "Avenger Automatic",
+  "ref": "A17328",
+  "price": 4300,
+  "tier": 3,
+  "img": "/watches/breitling-avenger-automatic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-carrera-chronograph",
+  "brand": "TAG Heuer",
+  "model": "Carrera Chronograph",
+  "ref": "CBN2A1A",
+  "price": 4799,
+  "tier": 3,
+  "img": "/watches/tag-heuer-carrera-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-aquaracer-professional",
+  "brand": "TAG Heuer",
+  "model": "Aquaracer Professional",
+  "ref": "WBP201A",
+  "price": 2455,
+  "tier": 3,
+  "img": "/watches/tag-heuer-aquaracer-professional.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-monaco",
+  "brand": "TAG Heuer",
+  "model": "Monaco",
+  "ref": "CBL2111",
+  "price": 6460,
+  "tier": 4,
+  "img": "/watches/tag-heuer-monaco.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-formula-1-quartz",
+  "brand": "TAG Heuer",
+  "model": "Formula 1 Quartz",
+  "ref": "WAZ1110",
+  "price": 1590,
+  "tier": 2,
+  "img": "/watches/tag-heuer-formula-1-quartz.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-carrera-calibre-16",
+  "brand": "TAG Heuer",
+  "model": "Carrera Calibre 16",
+  "ref": "CV201AR",
+  "price": 3048,
+  "tier": 3,
+  "img": "/watches/tag-heuer-carrera-calibre-16.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "panerai-luminor-marina",
+  "brand": "Panerai",
+  "model": "Luminor Marina",
+  "ref": "PAM01312",
+  "price": 6576,
+  "tier": 4,
+  "img": "/watches/panerai-luminor-marina.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "panerai-luminor-submersible",
+  "brand": "Panerai",
+  "model": "Luminor Submersible",
+  "ref": "PAM01229",
+  "price": 11200,
+  "tier": 4,
+  "img": "/watches/panerai-luminor-submersible.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "panerai-radiomir",
+  "brand": "Panerai",
+  "model": "Radiomir",
+  "ref": "PAM00992",
+  "price": 7845,
+  "tier": 4,
+  "img": "/watches/panerai-radiomir.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "jaeger-lecoultre-reverso-classic",
+  "brand": "Jaeger-LeCoultre",
+  "model": "Reverso Classic",
+  "ref": "Q2548440",
+  "price": 9900,
+  "tier": 4,
+  "img": "/watches/jaeger-lecoultre-reverso-classic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "jaeger-lecoultre-master-ultra-thin-moon",
+  "brand": "Jaeger-LeCoultre",
+  "model": "Master Ultra Thin Moon",
+  "ref": "Q1368420",
+  "price": 12500,
+  "tier": 4,
+  "img": "/watches/jaeger-lecoultre-master-ultra-thin-moon.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "jaeger-lecoultre-polaris-automatic",
+  "brand": "Jaeger-LeCoultre",
+  "model": "Polaris Automatic",
+  "ref": "Q9008471",
+  "price": 8200,
+  "tier": 4,
+  "img": "/watches/jaeger-lecoultre-polaris-automatic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "zenith-chronomaster-el-primero",
+  "brand": "Zenith",
+  "model": "Chronomaster El Primero",
+  "ref": "03.3100.3600",
+  "price": 7152,
+  "tier": 4,
+  "img": "/watches/zenith-chronomaster-el-primero.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "zenith-defy-skyline",
+  "brand": "Zenith",
+  "model": "Defy Skyline",
+  "ref": "03.9300.3620",
+  "price": 8097,
+  "tier": 4,
+  "img": "/watches/zenith-defy-skyline.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "hublot-classic-fusion-titanium",
+  "brand": "Hublot",
+  "model": "Classic Fusion Titanium",
+  "ref": "542.NX.1171.LR",
+  "price": 10685,
+  "tier": 4,
+  "img": "/watches/hublot-classic-fusion-titanium.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "hublot-big-bang-unico",
+  "brand": "Hublot",
+  "model": "Big Bang Unico",
+  "ref": "441.NX.1171.RX",
+  "price": 18978,
+  "tier": 5,
+  "img": "/watches/hublot-big-bang-unico.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "hublot-spirit-of-big-bang",
+  "brand": "Hublot",
+  "model": "Spirit of Big Bang",
+  "ref": "601.NX.0173.LR",
+  "price": 24999,
+  "tier": 5,
+  "img": "/watches/hublot-spirit-of-big-bang.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "grand-seiko-snowflake",
+  "brand": "Grand Seiko",
+  "model": "Snowflake",
+  "ref": "SBGA211",
+  "price": 6600,
+  "tier": 4,
+  "img": "/watches/grand-seiko-snowflake.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "grand-seiko-heritage-hi-beat",
+  "brand": "Grand Seiko",
+  "model": "Heritage Hi-Beat",
+  "ref": "SBGH271",
+  "price": 6100,
+  "tier": 4,
+  "img": "/watches/grand-seiko-heritage-hi-beat.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "grand-seiko-evolution-9",
+  "brand": "Grand Seiko",
+  "model": "Evolution 9",
+  "ref": "SLGA007",
+  "price": 9100,
+  "tier": 4,
+  "img": "/watches/grand-seiko-evolution-9.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-hydroconquest",
+  "brand": "Longines",
+  "model": "HydroConquest",
+  "ref": "L3.781.4",
+  "price": 1742,
+  "tier": 2,
+  "img": "/watches/longines-hydroconquest.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-conquest",
+  "brand": "Longines",
+  "model": "Conquest",
+  "ref": "L3.830.4",
+  "price": 1183,
+  "tier": 2,
+  "img": "/watches/longines-conquest.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-master-collection",
+  "brand": "Longines",
+  "model": "Master Collection",
+  "ref": "L2.893.4",
+  "price": 2453,
+  "tier": 3,
+  "img": "/watches/longines-master-collection.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-spirit",
+  "brand": "Longines",
+  "model": "Spirit",
+  "ref": "L3.810.4",
+  "price": 2715,
+  "tier": 3,
+  "img": "/watches/longines-spirit.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-flagship-heritage",
+  "brand": "Longines",
+  "model": "Flagship Heritage",
+  "ref": "L4.795.4",
+  "price": 1505,
+  "tier": 2,
+  "img": "/watches/longines-flagship-heritage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-aquis-date",
+  "brand": "Oris",
+  "model": "Aquis Date",
+  "ref": "01 733 7730 4135",
+  "price": 2113,
+  "tier": 3,
+  "img": "/watches/oris-aquis-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-big-crown-pointer-date",
+  "brand": "Oris",
+  "model": "Big Crown Pointer Date",
+  "ref": "01 754 7741 3165",
+  "price": 2179,
+  "tier": 3,
+  "img": "/watches/oris-big-crown-pointer-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-divers-sixty-five",
+  "brand": "Oris",
+  "model": "Divers Sixty-Five",
+  "ref": "01 733 7707 4055",
+  "price": 2067,
+  "tier": 3,
+  "img": "/watches/oris-divers-sixty-five.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-artelier-date",
+  "brand": "Oris",
+  "model": "Artelier Date",
+  "ref": "01 733 7670 4051",
+  "price": 1508,
+  "tier": 2,
+  "img": "/watches/oris-artelier-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-prospex-alpinist",
+  "brand": "Seiko",
+  "model": "Prospex Alpinist",
+  "ref": "SPB121",
+  "price": 794,
+  "tier": 2,
+  "img": "/watches/seiko-prospex-alpinist.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-presage-cocktail-time",
+  "brand": "Seiko",
+  "model": "Presage Cocktail Time",
+  "ref": "SRPB41",
+  "price": 667,
+  "tier": 2,
+  "img": "/watches/seiko-presage-cocktail-time.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-king-seiko",
+  "brand": "Seiko",
+  "model": "King Seiko",
+  "ref": "SPB291",
+  "price": 989,
+  "tier": 2,
+  "img": "/watches/seiko-king-seiko.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-astron-gps-solar",
+  "brand": "Seiko",
+  "model": "Astron GPS Solar",
+  "ref": "SSH003",
+  "price": 1685,
+  "tier": 2,
+  "img": "/watches/seiko-astron-gps-solar.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports",
+  "brand": "Seiko",
+  "model": "5 Sports",
+  "ref": "SRPD55",
+  "price": 344,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-chronograph-ssb",
+  "brand": "Seiko",
+  "model": "Chronograph SSB",
+  "ref": "SSB031",
+  "price": 413,
+  "tier": 1,
+  "img": "/watches/seiko-chronograph-ssb.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-solar-chronograph",
+  "brand": "Seiko",
+  "model": "Solar Chronograph",
+  "ref": "SSC081",
+  "price": 236,
+  "tier": 1,
+  "img": "/watches/seiko-solar-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-premier-kinetic",
+  "brand": "Seiko",
+  "model": "Premier Kinetic",
+  "ref": "SRN045",
+  "price": 469,
+  "tier": 1,
+  "img": "/watches/seiko-premier-kinetic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "sinn-556-i",
+  "brand": "Sinn",
+  "model": "556 I",
+  "ref": "556.010",
+  "price": 1650,
+  "tier": 2,
+  "img": "/watches/sinn-556-i.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "sinn-104-st-sa",
+  "brand": "Sinn",
+  "model": "104 St Sa",
+  "ref": "104.010",
+  "price": 1790,
+  "tier": 2,
+  "img": "/watches/sinn-104-st-sa.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "richard-mille-rm-011-flyback-chronograph",
+  "brand": "Richard Mille",
+  "model": "RM 011 Flyback Chronograph",
+  "ref": "RM011",
+  "price": 263410,
+  "tier": 5,
+  "img": "/watches/richard-mille-rm-011-flyback-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-gmt-ssk001",
+  "brand": "Seiko",
+  "model": "5 Sports GMT SSK001",
+  "ref": "SSK001K1",
+  "price": 469,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-gmt-ssk001.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpd51",
+  "brand": "Seiko",
+  "model": "5 Sports SRPD51",
+  "ref": "SRPD51K1",
+  "price": 290,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpd51.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-field-snzg11",
+  "brand": "Seiko",
+  "model": "5 Field SNZG11",
+  "ref": "SNZG11K1",
+  "price": 160,
+  "tier": 1,
+  "img": "/watches/seiko-5-field-snzg11.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpd63",
+  "brand": "Seiko",
+  "model": "5 Sports SRPD63",
+  "ref": "SRPD63K1",
+  "price": 314,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpd63.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpe53",
+  "brand": "Seiko",
+  "model": "5 Sports SRPE53",
+  "ref": "SRPE53K1",
+  "price": 294,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpe53.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpg33",
+  "brand": "Seiko",
+  "model": "5 Sports SRPG33",
+  "ref": "SRPG33K1",
+  "price": 293,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpg33.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-lord-matic",
+  "brand": "Seiko",
+  "model": "Lord Matic",
+  "ref": "5740-8000",
+  "price": 448,
+  "tier": 1,
+  "img": "/watches/seiko-lord-matic.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpj45",
+  "brand": "Seiko",
+  "model": "5 Sports SRPJ45",
+  "ref": "SRPJ45K1",
+  "price": 331,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpj45.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-gmt-ssk003",
+  "brand": "Seiko",
+  "model": "5 Sports GMT SSK003",
+  "ref": "SSK003K1",
+  "price": 477,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-gmt-ssk003.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpd79",
+  "brand": "Seiko",
+  "model": "5 Sports SRPD79",
+  "ref": "SRPD79K1",
+  "price": 344,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpd79.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-5-sports-srpf69",
+  "brand": "Seiko",
+  "model": "5 Sports SRPF69",
+  "ref": "SRPF69K1",
+  "price": 469,
+  "tier": 1,
+  "img": "/watches/seiko-5-sports-srpf69.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-presage-srpj13",
+  "brand": "Seiko",
+  "model": "Presage SRPJ13",
+  "ref": "SRPJ13J1",
+  "price": 429,
+  "tier": 1,
+  "img": "/watches/seiko-presage-srpj13.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-constellation-vintage",
+  "brand": "Omega",
+  "model": "Constellation Vintage",
+  "ref": "168.017",
+  "price": 684,
+  "tier": 2,
+  "img": "/watches/omega-constellation-vintage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-vintage-2",
+  "brand": "Omega",
+  "model": "Seamaster Vintage",
+  "ref": "166.010",
+  "price": 968,
+  "tier": 2,
+  "img": "/watches/omega-seamaster-vintage-2.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-seamaster-diver-300m-quartz",
+  "brand": "Omega",
+  "model": "Seamaster Diver 300M Quartz",
+  "ref": "2561.80",
+  "price": 1353,
+  "tier": 2,
+  "img": "/watches/omega-seamaster-diver-300m-quartz.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-gen-ve-vintage",
+  "brand": "Omega",
+  "model": "Gen\u00e8ve Vintage",
+  "ref": "136.011",
+  "price": 1539,
+  "tier": 2,
+  "img": "/watches/omega-gen-ve-vintage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-pr-sence",
+  "brand": "Longines",
+  "model": "Pr\u00e9sence",
+  "ref": "",
+  "price": 1328,
+  "tier": 2,
+  "img": "/watches/longines-pr-sence.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-la-grande-classique",
+  "brand": "Longines",
+  "model": "La Grande Classique",
+  "ref": "",
+  "price": 1261,
+  "tier": 2,
+  "img": "/watches/longines-la-grande-classique.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-admiral",
+  "brand": "Longines",
+  "model": "Admiral",
+  "ref": "",
+  "price": 1387,
+  "tier": 2,
+  "img": "/watches/longines-admiral.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-lyre",
+  "brand": "Longines",
+  "model": "Lyre",
+  "ref": "",
+  "price": 1203,
+  "tier": 2,
+  "img": "/watches/longines-lyre.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-kirium",
+  "brand": "TAG Heuer",
+  "model": "Kirium",
+  "ref": "",
+  "price": 886,
+  "tier": 2,
+  "img": "/watches/tag-heuer-kirium.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-link-quartz",
+  "brand": "TAG Heuer",
+  "model": "Link Quartz",
+  "ref": "",
+  "price": 950,
+  "tier": 2,
+  "img": "/watches/tag-heuer-link-quartz.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-colt-quartz",
+  "brand": "Breitling",
+  "model": "Colt Quartz",
+  "ref": "",
+  "price": 1898,
+  "tier": 2,
+  "img": "/watches/breitling-colt-quartz.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "breitling-aerospace",
+  "brand": "Breitling",
+  "model": "Aerospace",
+  "ref": "",
+  "price": 1839,
+  "tier": 2,
+  "img": "/watches/breitling-aerospace.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-tank-must-de-cartier",
+  "brand": "Cartier",
+  "model": "Tank Must de Cartier",
+  "ref": "",
+  "price": 1477,
+  "tier": 2,
+  "img": "/watches/cartier-tank-must-de-cartier.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "zenith-sporto-vintage",
+  "brand": "Zenith",
+  "model": "Sporto Vintage",
+  "ref": "",
+  "price": 689,
+  "tier": 2,
+  "img": "/watches/zenith-sporto-vintage.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-monster",
+  "brand": "Seiko",
+  "model": "Monster",
+  "ref": "SKX779",
+  "price": 512,
+  "tier": 2,
+  "img": "/watches/seiko-monster.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-bullhead-chronograph",
+  "brand": "Seiko",
+  "model": "Bullhead Chronograph",
+  "ref": "6138",
+  "price": 1112,
+  "tier": 2,
+  "img": "/watches/seiko-bullhead-chronograph.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-sportura",
+  "brand": "Seiko",
+  "model": "Sportura",
+  "ref": "",
+  "price": 574,
+  "tier": 2,
+  "img": "/watches/seiko-sportura.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-williams-day-date",
+  "brand": "Oris",
+  "model": "Williams Day Date",
+  "ref": "",
+  "price": 1125,
+  "tier": 2,
+  "img": "/watches/oris-williams-day-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-oposition",
+  "brand": "Longines",
+  "model": "Oposition",
+  "ref": "",
+  "price": 550,
+  "tier": 2,
+  "img": "/watches/longines-oposition.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-astron-gps-solar-2",
+  "brand": "Seiko",
+  "model": "Astron GPS Solar",
+  "ref": "",
+  "price": 1626,
+  "tier": 2,
+  "img": "/watches/seiko-astron-gps-solar-2.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "sinn-856",
+  "brand": "Sinn",
+  "model": "856",
+  "ref": "",
+  "price": 2000,
+  "tier": 3,
+  "img": "/watches/sinn-856.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "longines-legend-diver",
+  "brand": "Longines",
+  "model": "Legend Diver",
+  "ref": "",
+  "price": 2478,
+  "tier": 3,
+  "img": "/watches/longines-legend-diver.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tag-heuer-autavia",
+  "brand": "TAG Heuer",
+  "model": "Autavia",
+  "ref": "",
+  "price": 3713,
+  "tier": 3,
+  "img": "/watches/tag-heuer-autavia.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "seiko-marinemaster",
+  "brand": "Seiko",
+  "model": "Marinemaster",
+  "ref": "SBDX017",
+  "price": 2639,
+  "tier": 3,
+  "img": "/watches/seiko-marinemaster.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "tudor-ranger",
+  "brand": "Tudor",
+  "model": "Ranger",
+  "ref": "79950",
+  "price": 3175,
+  "tier": 3,
+  "img": "/watches/tudor-ranger.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "omega-speedmaster-reduced",
+  "brand": "Omega",
+  "model": "Speedmaster Reduced",
+  "ref": "3510.50",
+  "price": 3282,
+  "tier": 3,
+  "img": "/watches/omega-speedmaster-reduced.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "oris-big-crown-propilot",
+  "brand": "Oris",
+  "model": "Big Crown ProPilot",
+  "ref": "",
+  "price": 2873,
+  "tier": 3,
+  "img": "/watches/oris-big-crown-propilot.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "cartier-tank-louis",
+  "brand": "Cartier",
+  "model": "Tank Louis",
+  "ref": "",
+  "price": 10999,
+  "tier": 4,
+  "img": "/watches/cartier-tank-louis.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "jaeger-lecoultre-master-control-date",
+  "brand": "Jaeger-LeCoultre",
+  "model": "Master Control Date",
+  "ref": "",
+  "price": 7986,
+  "tier": 4,
+  "img": "/watches/jaeger-lecoultre-master-control-date.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "panerai-luminor-due",
+  "brand": "Panerai",
+  "model": "Luminor Due",
+  "ref": "",
+  "price": 7256,
+  "tier": 4,
+  "img": "/watches/panerai-luminor-due.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "vacheron-constantin-fiftysix",
+  "brand": "Vacheron Constantin",
+  "model": "Fiftysix",
+  "ref": "",
+  "price": 20500,
+  "tier": 5,
+  "img": "/watches/vacheron-constantin-fiftysix.jpg",
+  "source": "dealer-photo"
+ },
+ {
+  "id": "audemars-piguet-royal-oak-chronograph",
+  "brand": "Audemars Piguet",
+  "model": "Royal Oak Chronograph",
+  "ref": "26331ST",
+  "price": 69843,
+  "tier": 5,
+  "img": "/watches/audemars-piguet-royal-oak-chronograph.jpg",
+  "source": "dealer-photo"
+ }
+]
