@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import WATCHES from "../data/watches.json";
 
 type Watch = { id: string; brand: string; model: string; ref: string; price: number; tier: number; img: string; source: string };
@@ -7,6 +7,7 @@ const ALL = WATCHES as Watch[];
 const K = 32;
 const START = 1500;
 const LS_KEY = "wristrank-v1";
+const ADVANCE_MS = 1500;
 
 const TIER_NAMES: Record<number, string> = {
   1: "Tier 1 · Under $500",
@@ -51,7 +52,9 @@ export default function Home() {
   const [pair, setPair] = useState<[Watch, Watch] | null>(null);
   const [picked, setPicked] = useState<string | null>(null);
   const [result, setResult] = useState<{ da: number; db: number } | null>(null);
+  const [paused, setPaused] = useState(false);
   const [filter, setFilter] = useState(0);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     try {
@@ -67,8 +70,15 @@ export default function Home() {
     if (loaded && !pair) setPair(pickPair());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loaded]);
+  useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
 
-  function next() {
+  function clearTimer() {
+    if (timer.current) { clearTimeout(timer.current); timer.current = null; }
+  }
+
+  function advance() {
+    clearTimer();
+    setPaused(false);
     setPair(pickPair());
     setPicked(null);
     setResult(null);
@@ -91,6 +101,24 @@ export default function Home() {
     });
     setPicked(winner.id);
     setResult({ da: na - ra, db: nb - rb });
+    clearTimer();
+    timer.current = setTimeout(advance, ADVANCE_MS);
+  }
+
+  function onCard(w: Watch) {
+    if (picked) advance();
+    else vote(w);
+  }
+
+  function onHeart(e: React.MouseEvent, id: string) {
+    e.stopPropagation();
+    toggleList(id);
+    if (picked) { clearTimer(); setPaused(true); }
+  }
+
+  function goTab(t: "play" | "ranks" | "list") {
+    clearTimer();
+    setTab(t);
   }
 
   function toggleList(id: string) {
@@ -113,36 +141,36 @@ export default function Home() {
     const revealed = !!picked;
     const delta = result ? (side === 0 ? result.da : result.db) : 0;
     const score = eloOf(s, w.id);
+    const listed = s.list.includes(w.id);
     return (
       <div
         className={"card" + (revealed ? " revealed" : "") + (isPicked ? " picked" : revealed ? " beaten" : "")}
-        onClick={() => vote(w)}
+        onClick={() => onCard(w)}
         role="button"
         aria-label="Pick this watch"
       >
-        {isPicked && <div className="winner-flag">★ YOUR PICK</div>}
         <div className="ph"><img src={w.img} alt={revealed ? `${w.brand} ${w.model}` : "Mystery watch"} draggable={false} /></div>
+        {isPicked && <div className="winner-flag">★ YOUR PICK</div>}
+        {revealed && (
+          <button className={"heart" + (listed ? " added" : "")} onClick={(e) => onHeart(e, w.id)} aria-label="Toggle on my list">
+            {listed ? "♥" : "♡"}
+          </button>
+        )}
         {!revealed ? (
           <div className="mystery"><span className="q">? ? ?</span><span>TAP TO PICK</span></div>
         ) : (
           <div className="reveal">
             <div className="brand">{w.brand}</div>
             <div className="model">{w.model}</div>
-            {w.ref ? <div className="ref">Ref. {w.ref}</div> : null}
             <div className="row">
               <span className="price">{fmt(w.price)}</span>
               <span className={"chip t" + w.tier}>{TIER_NAMES[w.tier].split("·")[0].trim()}</span>
+              {w.ref ? <span className="ref">Ref. {w.ref}</span> : null}
               <span className="elo">
                 <span className="score">{score}</span>{" "}
                 <span className={"delta " + (delta >= 0 ? "up" : "down")}>{delta >= 0 ? "+" : ""}{delta}</span>
               </span>
             </div>
-            <button
-              className={"listbtn" + (s.list.includes(w.id) ? " added" : "")}
-              onClick={(e) => { e.stopPropagation(); toggleList(w.id); }}
-            >
-              {s.list.includes(w.id) ? "♥ On your list" : "♡ Add to my list"}
-            </button>
           </div>
         )}
       </div>
@@ -150,33 +178,32 @@ export default function Home() {
   }
 
   return (
-    <div className="wrap">
+    <div className={"wrap" + (tab === "play" ? " playing" : "")}>
       <header className="topbar">
         <div className="logo">WRIST<b>RANK</b></div>
         <div className="streak"><b>{s.votes}</b> votes · <b>{s.list.length}</b> listed</div>
       </header>
 
       {tab === "play" && (
-        <>
-          <p className="tagline">Two watches. One winner. <b>Identities stay hidden until you vote.</b></p>
+        <div className="stage">
           {pair && (
             <div className="duel" key={pair[0].id + "|" + pair[1].id}>
               <Card w={pair[0]} side={0} />
               <div className="vs">VS</div>
               <Card w={pair[1]} side={1} />
+              {picked && upset && <div className="upset">🔥 UPSET - cheaper tier takes it</div>}
             </div>
           )}
-          {picked ? (
-            <>
-              {upset && <div className="upset">🔥 UPSET - the cheaper tier takes it, and Elo pays out big for giant-killing</div>}
-              <div className="actions">
-                <button className="btn" onClick={next}>Next matchup →</button>
-              </div>
-            </>
-          ) : (
-            <button className="skip" onClick={next}>skip this pair ⟳</button>
-          )}
-        </>
+          <div className="stagefoot">
+            {!picked ? (
+              <button className="skip" onClick={advance}>skip this pair ⟳</button>
+            ) : paused ? (
+              <button className="nextmini" onClick={advance}>Next matchup ▸</button>
+            ) : (
+              <div className="autobar" key={pair ? pair[0].id + pair[1].id + picked : "x"}><i /></div>
+            )}
+          </div>
+        </div>
       )}
 
       {tab === "ranks" && (
@@ -207,6 +234,10 @@ export default function Home() {
               </button>
             </div>
           ))}
+          <p className="foot">
+            Prices are median secondary-market prices computed from a 284K-listing Chrono24 dataset, cached at build time.
+            Photos via dealer listings. Men&apos;s watches only. Elo starts at 1500, K = 32 - beat a higher-rated watch, gain more.
+          </p>
         </>
       )}
 
@@ -221,7 +252,7 @@ export default function Home() {
             </div>
           )}
           {listWatches.length === 0 ? (
-            <div className="empty">Nothing here yet.<br />Vote in a matchup, then tap “Add to my list” on any watch you love.</div>
+            <div className="empty">Nothing here yet.<br />Vote in a matchup, then tap the heart on any watch you love.</div>
           ) : (
             listWatches.map((w) => (
               <div className="rank-row" key={w.id}>
@@ -239,18 +270,17 @@ export default function Home() {
               </div>
             ))
           )}
+          <p className="foot">
+            Prices are median secondary-market prices computed from a 284K-listing Chrono24 dataset, cached at build time.
+            Photos via dealer listings. Men&apos;s watches only.
+          </p>
         </>
       )}
 
-      <p className="foot">
-        Prices are median secondary-market prices computed from a 284K-listing Chrono24 dataset, cached at build time.
-        Photos via dealer listings and a Chrono24 photo archive. Men&apos;s watches only. Elo starts at 1500, K = 32 - beat a higher-rated watch, gain more.
-      </p>
-
       <nav className="nav">
-        <button className={tab === "play" ? "on" : ""} onClick={() => setTab("play")}>⚔️ Duel</button>
-        <button className={tab === "ranks" ? "on" : ""} onClick={() => setTab("ranks")}>🏆 Ranks</button>
-        <button className={tab === "list" ? "on" : ""} onClick={() => setTab("list")}>♥ My List</button>
+        <button className={tab === "play" ? "on" : ""} onClick={() => goTab("play")}>⚔️ Duel</button>
+        <button className={tab === "ranks" ? "on" : ""} onClick={() => goTab("ranks")}>🏆 Ranks</button>
+        <button className={tab === "list" ? "on" : ""} onClick={() => goTab("list")}>♥ My List</button>
       </nav>
     </div>
   );
