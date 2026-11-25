@@ -15,7 +15,7 @@ The blind watch ranking game. Two watches enter, you pick a winner - brand, mode
 
 ## The data (nothing hand-typed)
 
-The catalog of 138 watches is generated once by `scripts/build_catalog.py` and cached in `data/watches.json` + `public/watches/`:
+The catalog of 1,042 watches is generated once by `scripts/build_catalog.py` and cached in `data/watches.json` + `public/watches/`:
 
 - **Prices** - median secondary-market prices computed from a 284,491-listing Chrono24 dataset (Kaggle: `philmorekoung11/luxury-watch-listings`, mirrored on Hugging Face as `yotam22/watches`). Family medians use thousands of real listings per model line (e.g. Submariner Date = median of 5,088 listings). Long-tail entries use family medians, falling back to brand medians - the per-watch `source` field says which.
 - **Marquee photos** - dealer/listing photos located per reference via image search (EveryWatch, Watchfinder, Watch Club, official brand shots where available), downloaded once and verified.
